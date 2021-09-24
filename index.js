@@ -9,7 +9,6 @@ module.exports = utils.declare((api, options) => {
     multiple: 1,
     decimalPlaces: 2,
     targetUnits: "rem",
-    comment: "no",
   }, options);
 
   function repalcePx(str) {
