@@ -24,7 +24,6 @@
     "rem"
   ],
   "dependencies": {
-    "@babel/core": "^7.15.5",
     "@babel/helper-plugin-utils": "^7.14.5",
     "object-assign": "^4.1.1"
   },

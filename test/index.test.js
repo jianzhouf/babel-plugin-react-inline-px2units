@@ -2,8 +2,11 @@ const pluginTester = require("babel-plugin-tester").default;
 const myPlugin = require("../index.js");
 
 pluginTester({
+  pluginName: 'plugin-react-inline-px2units',
   plugin: myPlugin,
-  babelOptions: require('../babel.config.js'),
+  babelOptions:{
+    presets: ["@babel/preset-react"]
+  },
   pluginOptions: {
     divisor: 100
   },

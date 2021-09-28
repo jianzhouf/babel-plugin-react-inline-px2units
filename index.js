@@ -3,7 +3,6 @@ const assign = require("object-assign");
 
 module.exports = utils.declare((api, options) => {
   let enable = false;
-
   let opts = assign({
     divisor: 1,
     multiple: 1,
